@@ -47,7 +47,7 @@ local function runScript(optionName)
     if optionName == "Rendex [FREE]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Rendex Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -59,7 +59,7 @@ local function runScript(optionName)
     elseif optionName == "Flow [KEYLESS]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Flow Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -71,7 +71,7 @@ local function runScript(optionName)
     elseif optionName == "Sexsation [FREE]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Invisible Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -83,7 +83,7 @@ local function runScript(optionName)
     elseif optionName == "Iliomium [FREE]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Fly GUI Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -95,7 +95,7 @@ local function runScript(optionName)
     elseif optionName == "Spark [FREE]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Fly GUI Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -157,7 +157,7 @@ local function runScript2(optionName)
     if optionName == "Blitz [FREE]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Rendex Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -169,7 +169,7 @@ local function runScript2(optionName)
     elseif optionName == "Snowy [KEYLESS]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Flow Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
@@ -181,7 +181,7 @@ local function runScript2(optionName)
     elseif optionName == "Project Auto [KEYLESS]" then
         Rayfield:Notify({
             Title = "Executed Scripts",
-            Content = "Invisible Successfully Executed!",
+            Content = "Scripts Successfully Executed!",
             Duration = 6,
             Image = "check",
         })
