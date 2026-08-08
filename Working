@@ -13,7 +13,7 @@ local Window = Rayfield:CreateWindow({
    ConfigurationSaving = {
       Enabled = false,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "FunscriptsGuiFF1"
+      FileName = "Zethubisbest"
    },
 })
 
@@ -27,7 +27,7 @@ Rayfield:Notify({
 -- Workspace
 local Change = Window:CreateTab("📰 Changelog", nil)
 local MainTab = Window:CreateTab("⚔️ Main Scipts", nil)
-local Theme = Window:CreateTab("🎨 Theme", nil)
+local Theme = Window:CreateTab("🎨 Theme & Settings", nil)
 
 
 -- Main Scripts
@@ -280,6 +280,15 @@ local ThemeDropdown = Theme:CreateDropdown({
 })
 
 local MainSection = Theme:CreateSection("More Settings")
+
+local Button = Theme:CreateButton({
+    Name = "ZETHUB GUI",
+    Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Zyptrue/Release/refs/heads/main/New%20Interface"))()
+   end
+})
+
+
 local Button = Theme:CreateButton({
     Name = "Destroy UI/Interface",
     Callback = function()
